@@ -19,6 +19,19 @@ namespace LibraryCalc11.test
         }
 
         [Theory]
+        [InlineData(1, 2,3)]
+        public void SomaTresSucesso(int x, int y, int w)
+        {
+
+            var calculadora = new Calculadora();
+
+            var resultado = calculadora.SomarTres(x, y,w);
+
+            Assert.True((x + y+w) == resultado);
+
+        }
+
+        [Theory]
         [InlineData(1, 2)]
         public void SomaError(int x, int y)
         {
@@ -41,6 +54,19 @@ namespace LibraryCalc11.test
             var resultado = calculadora.Subtrair(x, y);
 
             Assert.True((x - y) == resultado);
+
+        }
+
+        [Theory]
+        [InlineData(1, 2, 3)]
+        public void SubtrairTresSucesso(int x, int y, int w)
+        {
+
+            var calculadora = new Calculadora();
+
+            var resultado = calculadora.SubtrairTres(x, y, w);
+
+            Assert.True((x + y + w) == resultado);
 
         }
         [Theory]

@@ -42,5 +42,13 @@ namespace LibraryCalc11
         /// <param name="w"></param>
         /// <returns></returns>
         int SomarTres(int x, int y, int w);
+
+        /// <summary>
+        ///  interfacce para o comportamento de subtração
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        int SubtrairTres(int x, int y, int w);
     }
 }
