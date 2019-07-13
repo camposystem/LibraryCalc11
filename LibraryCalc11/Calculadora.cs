@@ -66,7 +66,8 @@ namespace LibraryCalc11
         }
 
         public int SubtrairTres(int x, int y, int w)
-        {  return x-y-w;
+        {
+            return ((x-y)-w);
         }
     }
 }
