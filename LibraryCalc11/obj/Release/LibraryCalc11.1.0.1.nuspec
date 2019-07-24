@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LibraryCalc11</id>
+    <version>1.0.1</version>
+    <authors>LibraryCalc11</authors>
+    <owners>LibraryCalc11</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>release</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\curso\Treinamento\aula_11072019_rh\LibraryCalc11\LibraryCalc11\bin\Release\netstandard2.0\LibraryCalc11.dll" target="lib\netstandard2.0\LibraryCalc11.dll" />
+  </files>
+</package>
